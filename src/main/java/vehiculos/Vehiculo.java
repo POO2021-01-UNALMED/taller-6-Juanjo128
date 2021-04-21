@@ -9,7 +9,7 @@ public class Vehiculo {
 	public int peso;
 	public String traccion;
 	public Fabricante fabricante;
-	public static int numVehiculos = 0;;
+	public static int numVehiculos = 0;
 	
 	
 
@@ -29,6 +29,10 @@ public class Vehiculo {
 	
 	public String getPlaca() {
 		return this.placa;
+	}
+	
+	public void setPlaca(String x) {
+		this.placa = x;
 	}
 	
 	public void setPuertas(int x) {
