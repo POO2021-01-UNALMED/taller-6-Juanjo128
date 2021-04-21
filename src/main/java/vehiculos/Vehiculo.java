@@ -10,9 +10,9 @@ public class Vehiculo {
 	public String traccion;
 	public Fabricante fabricante;
 	public static int numVehiculos;
-	public int numAutomovil;
-	public int numCamion;
-	public int numCamioneta;
+	
+	
+
 	
 	public Vehiculo(String placa, int puertas, int velocidadMaxima, String nombre, int precio, int peso, String traccion, Fabricante fabricante) {
 		this.placa = placa;
@@ -92,7 +92,7 @@ public class Vehiculo {
 	}
 	
 	public String vehiculosPorTipo() {
-		return("Automoviles:" + numAutomovil + "\n" + "Camionetas:" + numCamioneta + "\n" + "Camionetas:" + numCamion );
+		return("Automoviles:" + Automovil.getCantidadVehiculos() + "\n" + "Camionetas:" + Camioneta.getCantidadCamionetas() + "\n" + "Camiones:" + Camion.getCantidadCamiones());
 	}
 	
 	
