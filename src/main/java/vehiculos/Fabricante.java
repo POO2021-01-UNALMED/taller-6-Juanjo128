@@ -9,8 +9,9 @@ public class Fabricante {
 	public static ArrayList<Fabricante> fabricantes = new ArrayList<>();
 	public int nvehiculos;
 	
-	public Fabricante(String x) {
+	public Fabricante(String x, Pais y) {
 		this.nombre = x;
+		this.pais = y;
 		fabricantes.add(this);
 	}
 	
