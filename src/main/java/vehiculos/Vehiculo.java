@@ -51,7 +51,7 @@ public class Vehiculo {
 		this.precio = x;
 	}
 	
-	public int getPrecio(int x) {
+	public int getPrecio() {
 		return this.precio;
 	}
 	
