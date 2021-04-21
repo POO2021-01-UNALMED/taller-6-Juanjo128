@@ -9,7 +9,7 @@ public class Vehiculo {
 	public int peso;
 	public String traccion;
 	public Fabricante fabricante;
-	public static int numVehiculos;
+	public static int numVehiculos = 0;;
 	
 	
 
